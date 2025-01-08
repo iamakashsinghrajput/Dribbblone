@@ -1,0 +1,202 @@
+/* Main Wrapper */
+.subhero-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+/* Main Button */
+.btn-subhero {
+    background-color: transparent;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: max-content;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid rgb(206, 201, 201);
+    cursor: pointer;
+    transition: 300ms;
+    font-weight: 600;
+}
+
+.mainpop{
+    width: max-content;
+    height: max-content;
+    position: relative;
+    z-index: 5;
+}
+
+.select {
+    margin-top: -40px;
+    margin-left: 80px;
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    transition: 300ms;
+    color: white;
+    overflow: hidden;
+    border-radius: 8px;
+    height: max-content;
+}
+
+.arrow {
+    position: relative;
+    left: 5px;
+    height: 10px;
+    transform: rotate(0deg);
+    width: 25px;
+    fill: black;
+    z-index: 5;
+    transition: transform 0.3s ease;
+}
+
+/* Active State for Main Button */
+.btn-subhero.active {
+    background-color: transparent;
+    color: black;
+}
+
+.btn-subhero.active .arrow {
+    transform: rotate(180deg);
+    transition: 200ms;
+}
+
+/* Dropdown Container */
+.sub-btn {
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+    height: 90px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(215, 214, 214);
+    visibility: visible;
+}
+
+/* Dropdown Options Container */
+.btn-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    border-radius: 8px;
+    width: 155px;
+}
+
+/* Popular Option Button */
+.btn-pop {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 158px;
+    height: 38px;
+    border-radius: 8px;
+    border: 0;
+    background-color: transparent;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+/* Hover Effect for Popular Option */
+.btn-pop:hover {
+    background-color: rgb(243, 241, 241);;
+}
+
+/* New & Noteworthy Option Button */
+.btn-not {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 158px;
+    height: 38px;
+    border-radius: 8px;
+    border: 0;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+/* Hover Effect for New & Noteworthy Option */
+.btn-not:hover {
+    background-color: rgb(243, 241, 241);;
+}
+
+/* Checkmark Style */
+.btncheck {
+    margin-left: 90px;
+    color: black;
+    font-weight: bold;
+}
+
+.btncheck1{
+    margin-left: 20px;
+}
+
+
+.slider-wrapper {
+    width: max-content;
+    height: max-content;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    margin-top: 90px;
+    margin-left: 290px;
+    padding-bottom: 1px;
+}
+
+.btn-tabs {
+    width: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 18px;
+}
+
+.btn2{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(242, 238, 238);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.btn1:hover{
+    color: rgb(108, 106, 106);
+}
